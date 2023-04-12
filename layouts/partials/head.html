@@ -8,6 +8,9 @@
 {{ $title := print .Site.Title " | " .Title }}
 {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 <title>{{ $title }}</title>
+<link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}" />
+
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
 <script>
@@ -17,4 +20,5 @@
 
   gtag('config', '{{ .Site.Params.googleAnalytics }}');
 </script>
+
 </head>
