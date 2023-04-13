@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1 class="text-3xl font-bold mb-8">{{ .Title }}</h1>
+
+<div class="calculator-buttons-grid">
+  {{ range seq 1 20 }}
+  <a href="#" target="_blank" class="calculator-button">Calculator {{ . }}</a>
+  {{ end }}
+</div>
+{{ end }}
