@@ -14,8 +14,8 @@ paginate=5
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Math"
+    url = "/math/"
     weight = 3
 
 [params]
