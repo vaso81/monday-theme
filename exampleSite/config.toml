@@ -4,6 +4,7 @@ title = "insightfromdata.com"
 theme = 'monday-theme'
 paginate=5
 
+
 [menu]
   [[menu.main]]
     name = "Home"
