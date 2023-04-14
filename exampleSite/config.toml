@@ -1,6 +1,6 @@
 baseURL = "https://insightfromdata.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "insightfromdata.com"
 theme = 'monday-theme'
 paginate=5
 
@@ -17,6 +17,8 @@ paginate=5
     name = "Math"
     url = "/math/"
     weight = 3
+
+
 
 [params]
   author = "Mr. John Doe"
