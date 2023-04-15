@@ -19,7 +19,10 @@ paginate=5
     url = "/math/"
     weight = 3
 
-
+ [[menu.main]]
+    name = "Unit Converters"
+    url = "/unit-converters/"
+    weight = 4
 
 [params]
   author = "Mr. John Doe"
